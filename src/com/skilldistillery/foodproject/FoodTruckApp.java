@@ -16,17 +16,15 @@ public class FoodTruckApp {
 //		trucks = getTestTruckArr();
 		boolean keepGoing = true;
 		while (keepGoing) {
-			System.out.println("==================================");
-			System.out.println("======_________________________====");
-			System.out.println("=====|   Which truck details would you like to view?    |====");
-			System.out.println("==___|                                                  |___===");
-			System.out.println("==| 1) Print trucks  |==");
-			System.out.println("==| 2) Get average ratings  |==");
-			System.out.println("==| 3) Get highest-rated truck |==");
-			System.out.println("==| 4) Quit |==");
-			System.out.println("==|______________________________ |");
-			System.out.println("==================================");
-			System.out.println("==================================");
+			System.out.println("       __________________________________________________ ");
+			System.out.println("      |                                                  |");
+			System.out.println("      |   Which truck details would you like to view?    |");
+			System.out.println("   ___|                                                  |___");
+			System.out.println("  |              1) Print trucks                             |");
+			System.out.println("  |              2) Get average ratings                      |");
+			System.out.println("  |              3) Get highest-rated truck                  |");
+			System.out.println("  |              4) Quit                                     |");
+			System.out.println("  |__________________________________________________________|");
 			String user = scanner.nextLine();
 			switch (user) {
 			case "1":
