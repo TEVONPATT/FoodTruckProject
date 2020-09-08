@@ -7,21 +7,16 @@ public class FoodTruck {
 	private static int truckID;
 	private int uniqueID;
 
-//The user is prompted to input the name, food type, and rating for up to five food trucks.
-	
 	public FoodTruck() {
 	}
-		
+
 	public FoodTruck(String truckName, String foodType, double rating) {
 		this.truckName = truckName;
 		this.foodType = foodType;
 		this.rating = rating;
 		this.uniqueID = truckID++;
 	}
-//	public FoodTruck(String truckID) {
-//		
-//	}
-	
+
 	public String getTruckName() {
 		return truckName;
 	}
@@ -45,18 +40,18 @@ public class FoodTruck {
 	public void setRating(double rating) {
 		this.rating = rating;
 	}
-	
+
 	public int getTruckID() {
 		return truckID;
 	}
+
 	public void setTruckID(int truckID) {
 		this.truckID = truckID;
 	}
 
-//public void 
-
 	public String toString() {
-		String output = "truck name: " + truckName + ", food type: " + foodType + ", rating: " + rating + " truck ID: " + uniqueID;
+		String output = "truck name: " + truckName + ", food type: " + foodType + ", rating: " + rating + " truck ID: "
+				+ uniqueID;
 		return output;
 	}
 
