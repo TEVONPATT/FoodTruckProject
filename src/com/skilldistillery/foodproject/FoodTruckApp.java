@@ -18,13 +18,15 @@ public class FoodTruckApp {
 		while (keepGoing) {
 			System.out.println("       __________________________________________________ ");
 			System.out.println("      |                                                  |");
-			System.out.println("      |   Which truck details would you like to view?    |");
-			System.out.println("   ___|                                                  |___");
-			System.out.println("  |              1) Print trucks                             |");
-			System.out.println("  |              2) Get average ratings                      |");
-			System.out.println("  |              3) Get highest-rated truck                  |");
-			System.out.println("  |              4) Quit                                     |");
-			System.out.println("  |__________________________________________________________|");
+			System.out.println("      |       Which action would you like to take?       |");
+			System.out.println("   ___|  ______________________________________________  |___");
+			System.out.println("   ||                                                      ||");
+			System.out.println("   ||              1) Print trucks                         ||");
+			System.out.println("   ||              2) Get average truck rating             ||");
+			System.out.println("   ||              3) Get highest-rated truck              ||");
+			System.out.println("   ||              4) Quit                                 ||");
+			System.out.println("   ||         ____________________________________         ||");
+			System.out.println("   ||______________________________________________________||");
 			String user = scanner.nextLine();
 			switch (user) {
 			case "1":

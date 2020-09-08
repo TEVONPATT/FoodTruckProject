@@ -1,6 +1,6 @@
 ## Project Overview
 This project consists of user inputed data to create five food trucks.
-**This data consists of the truck names, food types, and ratings.
+This data consists of the truck names, food types, and ratings.
 
 After the user input, a menu is generated.
 
